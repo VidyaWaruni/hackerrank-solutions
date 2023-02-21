@@ -37,6 +37,7 @@ function sockMerchant(n, ar) {
         if(ar[i]==''){
             continue;
         }
+
         for (let j = i+1; j < n; j++){
             if(ar[i]==ar[j]){
                 ar[i]='';
@@ -46,6 +47,7 @@ function sockMerchant(n, ar) {
             }
         }
     }
+
     return count;
 }
 
